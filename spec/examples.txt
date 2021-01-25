@@ -1,0 +1,29 @@
+example_id                                             | status | run_time        |
+------------------------------------------------------ | ------ | --------------- |
+./spec/controllers/home_controller_spec.rb[1:1:1]      | passed | 0.08807 seconds |
+./spec/controllers/home_controller_spec.rb[1:1:2]      | passed | 0.12842 seconds |
+./spec/controllers/movies_controller_spec.rb[1:1:1]    | passed | 0.01538 seconds |
+./spec/controllers/movies_controller_spec.rb[1:1:2]    | passed | 0.01443 seconds |
+./spec/controllers/purchases_controller_spec.rb[1:1:1] | passed | 0.01741 seconds |
+./spec/controllers/seasons_controller_spec.rb[1:1:1]   | passed | 0.09651 seconds |
+./spec/controllers/seasons_controller_spec.rb[1:1:2]   | passed | 0.07699 seconds |
+./spec/controllers/user_controller_spec.rb[1:1:1:1]    | failed | 0.0247 seconds  |
+./spec/controllers/user_controller_spec.rb[1:1:1:2]    | failed | 0.01425 seconds |
+./spec/controllers/user_controller_spec.rb[1:1:2:1]    | passed | 0.00323 seconds |
+./spec/controllers/user_controller_spec.rb[1:1:2:2]    | passed | 0.00226 seconds |
+./spec/models/episode_spec.rb[1:1]                     | passed | 0.01463 seconds |
+./spec/models/episode_spec.rb[1:2]                     | passed | 0.00497 seconds |
+./spec/models/episode_spec.rb[1:3]                     | passed | 0.00347 seconds |
+./spec/models/episode_spec.rb[1:4]                     | passed | 0.00279 seconds |
+./spec/models/movie_spec.rb[1:1]                       | passed | 0.00502 seconds |
+./spec/models/movie_spec.rb[1:2]                       | passed | 0.00376 seconds |
+./spec/models/purchase_spec.rb[1:1]                    | passed | 0.00494 seconds |
+./spec/models/purchase_spec.rb[1:2]                    | passed | 0.0045 seconds  |
+./spec/models/purchase_spec.rb[1:3]                    | passed | 0.00372 seconds |
+./spec/models/purchase_spec.rb[1:4]                    | passed | 0.00424 seconds |
+./spec/models/season_spec.rb[1:1]                      | passed | 0.00544 seconds |
+./spec/models/season_spec.rb[1:2]                      | passed | 0.00432 seconds |
+./spec/models/season_spec.rb[1:3]                      | passed | 0.00323 seconds |
+./spec/models/season_spec.rb[1:4]                      | passed | 0.00114 seconds |
+./spec/models/user_spec.rb[1:1]                        | passed | 0.12445 seconds |
+./spec/models/user_spec.rb[1:2]                        | passed | 0.00312 seconds |
