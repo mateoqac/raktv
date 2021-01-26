@@ -12,6 +12,9 @@ class CreatePurchases < ActiveRecord::Migration[6.0]
       t.timestamps
     end
 
-    add_index :purchases, [:user_id, :purchasable_id, :active], :unique => true
+    add_index :purchases,
+      [:user_id, :purchasable_id, :purchasable_type, :active],
+      unique: true,
+      name: 'index_unique_purchase_active_per_user'
   end
 end

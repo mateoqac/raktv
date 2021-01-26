@@ -331,17 +331,17 @@ CREATE INDEX index_purchases_on_user_id ON public.purchases USING btree (user_id
 
 
 --
--- Name: index_purchases_on_user_id_and_purchasable_id_and_active; Type: INDEX; Schema: public; Owner: -
---
-
-CREATE UNIQUE INDEX index_purchases_on_user_id_and_purchasable_id_and_active ON public.purchases USING btree (user_id, purchasable_id, active);
-
-
---
 -- Name: index_seasons_on_title; Type: INDEX; Schema: public; Owner: -
 --
 
 CREATE INDEX index_seasons_on_title ON public.seasons USING btree (title);
+
+
+--
+-- Name: index_unique_purchase_active_per_user; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE UNIQUE INDEX index_unique_purchase_active_per_user ON public.purchases USING btree (user_id, purchasable_id, purchasable_type, active);
 
 
 --

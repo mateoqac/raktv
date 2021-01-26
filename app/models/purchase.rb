@@ -12,4 +12,6 @@ class Purchase < ApplicationRecord
   belongs_to :purchasable, polymorphic: true
 
   belongs_to :user
+
+  scope :not_expired, -> { where('expires_at > ?', Time.current)}
 end
